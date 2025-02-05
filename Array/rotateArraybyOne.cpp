@@ -1,15 +1,18 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 void rotateArray(int arr[], int n) {
-    int rotatedArr[n]; // Temporary array
+    vector<int> rotatedArr(n); 
 
     for (int i = 0; i < n; i++) {
-        rotatedArr[(i + 1) % n] = arr[i]; // Place element in new position
+        rotatedArr[(i + 1) % n] = arr[i]; 
     }
 
     for (int i = 0; i < n; i++) {
-        arr[i] = rotatedArr[i]; // Copy back to original array
+
+        // Copying to original array
+        arr[i] = rotatedArr[i];  
     }
 }
 
