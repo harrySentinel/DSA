@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cctype>
+#include<string>
 using namespace std;
 
 // Function to calculate GCD using Euclidean algorithm
