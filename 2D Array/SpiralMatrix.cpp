@@ -1,8 +1,9 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 void generateSpiralMatrix(int n) {
-    int matrix[n][n];
+    vector<vector<int>> matrix(n, vector<int>(n)); // Dynamically allocated 2D vector
     int top = 0, bottom = n - 1, left = 0, right = n - 1;
     int num = 1;
 
@@ -25,9 +26,9 @@ void generateSpiralMatrix(int n) {
     }
 
     // Print the spiral matrix
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            cout << matrix[i][j] << " ";
+    for (const auto &row : matrix) {
+        for (int num : row) {
+            cout << num << " ";
         }
         cout << endl;
     }
