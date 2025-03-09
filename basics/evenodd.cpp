@@ -11,5 +11,17 @@ int main() {
     else
         cout << num << " is Odd." << endl;
 
+        /*using bitiwse operator 
+         int num;
+    cout << "Enter a number: ";
+    cin >> num;
+
+    if (num & 1) 
+        cout << num << " is Odd." << endl;
+    else 
+        cout << num << " is Even." << endl;
+
+        */
+
     return 0;
 }
