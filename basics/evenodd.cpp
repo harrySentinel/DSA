@@ -11,7 +11,7 @@ int main() {
     else
         cout << num << " is Odd." << endl;
 
-        /*using bitiwse operator 
+        /*using bitwise operator 
          int num;
     cout << "Enter a number: ";
     cin >> num;
