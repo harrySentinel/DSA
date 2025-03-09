@@ -13,7 +13,7 @@ bool isArmstrong(int num) {
     int sum = 0, temp = num, digits = 0;
     
     while (temp > 0) {
-        temp /= 10;
+        temp  /= 10;
         digits++;
     }
     
