@@ -16,6 +16,6 @@ int main() {
     cout << "Enter two numbers: ";
     cin >> num1 >> num2;
     
-    cout << "GCD of " << num1 << " and " << num2 << " is: " << gcd(num1, num2) << endl;
+    cout << "GCD of the givn number is " << num1 << " and " << num2 << " is: " << gcd(num1, num2) << endl;
     return 0;
 }
