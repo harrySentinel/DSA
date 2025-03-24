@@ -15,7 +15,7 @@ int main() {
     cout << "Enter a number N: ";
     cin >> N;
     
-    int result = sumOfSquaresOfEvens(N);
+    int result =  sumOfSquaresOfEvens(N);
     cout << "The sum of squares of all even numbers up to " << N << " is: " << result << endl;
     
     return 0;
