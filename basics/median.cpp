@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <algorithm> // For sort()
+#include <algorithm> // For sorting -> sort()
 
 using namespace std;
 
@@ -21,6 +21,7 @@ double findMedian(vector<int>& nums) {
 }
 
 int main() {
+
     vector<int> arr;
     int num, size;
     
