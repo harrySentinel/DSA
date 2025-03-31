@@ -15,6 +15,7 @@ bool isPrime(int num) {
 }
 
 int main() {
+    
     int start, end;
     
     cout << "Enter the starting number: ";
