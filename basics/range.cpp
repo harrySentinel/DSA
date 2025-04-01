@@ -20,7 +20,7 @@ int main() {
     
     cout << "Enter the starting no.: ";
     cin >> start;
-    cout << "Enter the ending number: ";
+    cout << "Enter the ending no.: ";
     cin >> end;
     
     cout << "Prime numbers between " << start << " and " << end << " are: ";
