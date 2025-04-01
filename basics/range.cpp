@@ -18,7 +18,7 @@ int main() {
     
     int start, end;
     
-    cout << "Enter the starting number: ";
+    cout << "Enter the starting no.: ";
     cin >> start;
     cout << "Enter the ending number: ";
     cin >> end;
