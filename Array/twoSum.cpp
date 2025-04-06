@@ -33,5 +33,11 @@ int main() {
     int target3 = 6;
     twoSum(nums3, size3, target3);
 
+        // Test case 4
+        int nums4[] = {3, 3, 3};
+        int size4 = sizeof(nums3)/sizeof(nums3[0]);
+        int target4 = 9;
+        twoSum(nums4, size4, target4);
+
     return 0;
 }
