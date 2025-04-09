@@ -40,6 +40,7 @@ int main() {
     arr1.push_back(3);
     arr1.push_back(4);
     arr1.push_back(10);
+    arr1.push_back(14);
 
     vector<int> arr2;
     arr2.push_back(3);
