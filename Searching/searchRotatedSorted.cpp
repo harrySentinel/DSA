@@ -1,3 +1,8 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+// Function to search in rotated sorted array
 int search(vector<int>& arr, int target) {
     int low = 0, high = arr.size() - 1;
     while (low <= high) {
