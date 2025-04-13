@@ -21,3 +21,20 @@ int search(vector<int>& arr, int target) {
     }
     return -1;
 }
+
+int main() {
+    vector<int> arr = {4, 5, 6, 7, 0, 1, 2};
+    int target;
+
+    cout << "Enter target value: ";
+    cin >> target;
+
+    int index = search(arr, target);
+
+    if (index != -1)
+        cout << "Target found at index: " << index << endl;
+    else
+        cout << "Target not found in the array." << endl;
+
+    return 0;
+}
