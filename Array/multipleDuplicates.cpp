@@ -13,6 +13,7 @@ vector<int> findDuplicates(const vector<int> &arr)
             maxVal = num;
     }
 
+    // the above same method done by using traditional for loop
     // int maxVal = arr[0]; // Start with the first element
     // for (int i = 1; i < arr.size(); i++)
     // {
