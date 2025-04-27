@@ -1,4 +1,5 @@
 #include<iostream>
+#include<math.h>
 using namespace std;
 
 // function to convert binary to decimal
