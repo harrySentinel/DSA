@@ -3,7 +3,7 @@
 #include<math.h>
 using namespace std;
 
-// function to convert octal to decimal
+
 int getOctal(long long num)
 {
     int i = 0, decimal = 0;
@@ -23,7 +23,7 @@ int getOctal(long long num)
     return decimal;
 }
 
-// main program
+
 int main()
 {
     // long used rather than int to store large values
