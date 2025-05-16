@@ -1,23 +1,30 @@
 #include <iostream>
-
-bool isPalindrome(const std::string &str) {
-    int left = 0, right = str.length() - 1;
-    while (left < right) {
-        if (str[left] != str[right]) {
-            return false;
-        }
-        left++;
-        right--;
-    }
-    return true;
-}
+#include <string>
+using namespace std;
 
 int main() {
-    std::string str = "madam";
-    if (isPalindrome(str)) {
-        std::cout << "The string is a palindrome." << std::endl;
-    } else {
-        std::cout << "The string is not a palindrome." << std::endl;
+    string str;
+    cout << "Enter a string: ";
+    cin >> str;
+
+    int start = 0;
+    int end = str.length() - 1;
+    bool isPalindrome = true;
+
+    while (start < end) {
+        if (str[start] != str[end]) {
+            isPalindrome = false;
+            break;
+        }
+        start++;
+        end--;
     }
+
+    if (isPalindrome) {
+        cout << str << " is a palindrome." << endl;
+    } else {
+        cout << str << " is not a palindrome." << endl;
+    }
+
     return 0;
 }
