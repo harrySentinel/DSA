@@ -23,7 +23,7 @@ int majorityElement(vector<int>& arr) {
         }
     }
 
-    // If no majority element found, return -1
+    
     return -1;
 }
 
