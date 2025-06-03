@@ -18,7 +18,7 @@ int maxSubarraySum(vector<int>& arr) {
 int main() {
     int n;
     
-    // Taking input from user
+   
     cout << "Enter the number of elements in the array: ";
     cin >> n;
     
@@ -28,7 +28,7 @@ int main() {
         cin >> arr[i];
     }
     
-    // Compute and output the maximum subarray sum
+    
     int result = maxSubarraySum(arr);
     cout << "Largest sum of a contiguous subarray: " << result << endl;
     
