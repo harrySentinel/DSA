@@ -20,7 +20,7 @@ This repository contains a collection of **Data Structures and Algorithms (DSA)*
 
 ## 🛠️ Key Features
 
-- 📌 Neatly organized topic-wise
+- 📌 Insightful Neatly organized topic-wise
 - 💡 Includes both iterative and recursive solutions
 - 🧠 Focus on logic-building and edge cases
 - 🏗️ Good reference for interviews and practicing variety of questions
