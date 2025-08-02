@@ -1,4 +1,4 @@
-# 📘 DSA Practice Repository
+# 📘 DSA Practice Repo
 
 This repository contains a collection of **Data Structures and Algorithms (DSA)** problems solved in various categories to build a strong foundational understanding of problem-solving will be updated soon with more questions.
 
