@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 
+// will be adding another alternative method
+
 using namespace std;
 
 vector<int> findUnion(const vector<int>& nums1, const vector<int>& nums2) {
