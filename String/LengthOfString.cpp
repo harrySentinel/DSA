@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// basic code to work on
 int main() {
     char str[100];  // Assuming max length is 100
     cout << "Enter a string: ";
