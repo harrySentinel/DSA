@@ -4,7 +4,7 @@ This repository contains a collection of **Data Structures and Algorithms (DSA)*
 
 ---
 
-## 📂 Folder Structure
+## 📂 Folder Struct
 
 | Category     | Description                                       |
 |--------------|---------------------------------------------------|
